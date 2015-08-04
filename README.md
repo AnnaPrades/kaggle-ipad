@@ -2,19 +2,21 @@
 
 My code for achieving third place in MIT's "The analytics edge" summer 2015 Kaggle competition.
 
+Proof: https://inclass.kaggle.com/c/15-071x-the-analytics-edge-summer-2015/leaderboard
+
 # Approach
 
-## Features (109):
+### Features (109):
 
 * One hot encoding of categorical features
 * Add frequent words as features
 
-## Feature selection (47):
+### Feature selection (47):
 
 * RFE with Caret package (Random Forest, repeatedcv)
 * Remove highly correlated features ( > 0.7)
 
-## Model selection/tuning:
+### Model selection/tuning:
 
 * 70/30 split
 * Random Forest (only tried some ntree values)
